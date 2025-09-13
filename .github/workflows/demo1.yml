@@ -13,7 +13,6 @@ on:
       - main
       - 'dev-*' # on branches like dev-1, dev-demo, dev-demo-select-task
       - 'feature/**' # any branch with feature and containing / or not eg: feature/primary, feature/demo/post
-      - 'feat/**'
       # will not run workflow in case of branch of name like developer-1 i.e. other than the defined branch patterns
     paths-ignore:
       - './github/workflows'
